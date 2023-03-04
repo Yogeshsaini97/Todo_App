@@ -3,29 +3,28 @@ const mongoose = require("mongoose");
 const express = require("express");
 const app = express();
 const cors = require("cors");
-const userRouter = require("./Authentication/routes/Routing");
+const userRouter = require("./routes/Routing");
 
 console.log("bye")
 
-
-
-
-
-
-
-Mongodbconnect();
-
-
-app.use(express.json());
+Mongodbconnect().then(()=>
+{
+  app.use(express.json());
 
 app.use(cors());
 
-app.use("/flipkart/user", userRouter);
+app.use("/TodoApp", userRouter);
+
 
 
 app.listen(5000, () => {
     console.log("server is running");
   });
+
+});
+
+
+
   
 
 
