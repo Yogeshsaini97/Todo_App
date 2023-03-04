@@ -1,0 +1,67 @@
+.todo
+{
+    border: 2px solid green;
+    height: 70%;
+    width: 70%;
+    color: #6256c0;
+
+}
+
+.innerdiv
+{
+border:2px solid red;
+height:20%;
+display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 900;
+    
+}
+
+.innerthirddiv
+{
+    border:2px solid red;
+height:60%;
+}
+
+
+.innerthirddiv
+{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+.createTask
+{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    border:2px solid green;
+    height:10%;
+    width:90%
+}
+
+.Dynamictask
+{
+    border:2px solid green;
+    height:10%;
+    width:90%;
+    height:100%
+}
+
+.Dynamictaskinside
+{
+    border: 2px solid grey;
+    height: 20%;
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #282c34;
+    border-radius: 1rem;
+}

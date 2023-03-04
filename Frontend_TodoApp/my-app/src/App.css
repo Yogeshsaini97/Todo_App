@@ -1,5 +1,14 @@
 .App {
   text-align: center;
+  height: 100%;
+  border: 2px solid red;
+  width:100%;
+  background: linear-gradient(0deg, #282c34 0 64%, #0d0d0d 50% 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   
+  
 }
 
 .App-logo {
@@ -27,6 +36,13 @@
 .App-link {
   color: #61dafb;
 }
+
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root
+{
+  color:rgb(252 252 252 / 60%)!important;
+}
+
+
 
 @keyframes App-logo-spin {
   from {
