@@ -27,7 +27,7 @@ exports.requireRegister = async function (req, res, next) {
           console.log("hogya save");
         });
 
-        res.status(200).json({ message: "user created successfully!!" });
+        res.status(200).json({ message: "user created successfully!!",Data:_user });
         console.log(req.body);
       });
     });

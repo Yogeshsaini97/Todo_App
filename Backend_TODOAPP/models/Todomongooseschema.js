@@ -25,6 +25,6 @@ const Todoschema=new mongoose.Schema({
 
 
 
-const TodoModel=mongoose.model("Todo_Data",Todoschema);
+const TodoModel=mongoose.model("TaskData",Todoschema);
 
 module.exports=TodoModel;
