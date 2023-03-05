@@ -1,13 +1,11 @@
 .todo
 {
-    border: 2px solid green;
     height: 80%;
     width: 40%;
 }
 
 .innerdiv
 {
-border:2px solid red;
 height:20%;
 display: flex;
     align-content: center;
@@ -20,7 +18,6 @@ display: flex;
 
 .innerthirddiv
 {
-    border:2px solid red;
 height:60%;
 }
 
@@ -39,9 +36,8 @@ height:60%;
     justify-content: space-between;
     align-content: center;
     align-items: center;
-    border: 2px solid green;
     height: 10%;
-    width: 100%;
+    width: 90%;
     font-weight: 600;
     font-family: emoji;
     font-size: 0.8rem;
@@ -50,23 +46,26 @@ height:60%;
 .Dynamictask
 {
     
-    border: 2px solid green;
     height: 10%;
-    width: 100%;
+    width: 90%;
     height: 100%;
+    overflow: auto;
 
 }
+.Dynamictask::-webkit-scrollbar {
+    display: none;
+  }
 
 .Dynamictaskinside
 {
   
-    border: 2px solid grey;
+    border: 1px solid #222731;
     height: 17%;
     display: flex;
     align-content: center;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
-    background-color: #282c34;
+    background-color: #222731;
     width: 100%;
     border-radius: 0.5rem;
     color: #ffffff;
@@ -78,7 +77,6 @@ height:60%;
     padding: 0;
     transform-origin: top left;
     white-space: nowrap;
- 
    
    
 
@@ -91,4 +89,15 @@ height:60%;
     justify-content: space-evenly;
     align-items: center;
 
+}
+.firstTask
+{
+    color: white;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-weight: 900;
+    opacity: 0.6;
 }

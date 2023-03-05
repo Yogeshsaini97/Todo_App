@@ -1,9 +1,8 @@
 .App {
   text-align: center;
   height: 100%;
-  border: 2px solid red;
-  width:100%;
-  background: linear-gradient(0deg, #282c34 0 64%, #0d0d0d 50% 100%);
+  width: 100%;
+  background: linear-gradient(0deg, #282c34 0 65.9%, #0d0d0d 50% 100%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,7 +41,18 @@
   color:rgb(252 252 252 / 60%)!important;
 }
 
+.css-sghohy-MuiButtonBase-root-MuiButton-root {
+  background-color: rgb(98, 86, 192)!important;
+}
 
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input
+{
+  color:#ffffff!important;
+  opacity: 0.8;
+
+
+}
 
 @keyframes App-logo-spin {
   from {

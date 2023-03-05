@@ -1,9 +1,8 @@
+// Dynamic function to handle every api call  
+
 export const fetchApi=async (Method,uri,payload)=>
 {
-    if(payload)
-    {
-        console.log(payload)
-    }
+    
     const response = await fetch(uri, {
         method: Method, // *GET, POST, PUT, DELETE, etc.
         mode: "cors", // no-cors, *cors, same-origin
@@ -22,7 +21,7 @@ export const fetchApi=async (Method,uri,payload)=>
 
       const data=await response.json();
 
-      console.log(data);
+  
 
       return data;
 }
